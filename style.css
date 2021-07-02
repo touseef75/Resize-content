@@ -1,0 +1,31 @@
+.box{
+    display: flex; justify-content: flex-end; box-sizing: border-box; font-weight: bolder;
+}
+#small{
+    margin: 2px; border: none;width: 3%; height: 6vh;
+}
+#midd{
+    margin: 2px; border: none;font-size: 2rem; width: 5%;height: 10vh;
+}
+#large{
+    margin: 2px; border: none;font-size: 5rem; width: 7%; height: 15vh;
+}#small{
+    transition: 0.5s linear;
+}
+#small:hover{
+     font-size: 2rem;
+    background-color: rgb(124, 123, 123);
+        }
+#midd{
+     transition: 0.5s linear;
+}
+#midd:hover{
+     font-size: 9rem;
+     background-color: rgb(124, 123, 123);
+        }
+#large{
+     transition: 0.5s linear;
+}
+#large:hover{
+     background-color: rgb(124, 123, 123);
+}
